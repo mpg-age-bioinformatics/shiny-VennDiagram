@@ -26,7 +26,7 @@ shinyUI(fluidPage(
                                                                                 'comma-seperated' = ',', 
                                                                                 'semicolon-separated' = ';'), inline = TRUE),
       checkboxInput("header", "Header", TRUE),
-      a(href = "https://raw.githubusercontent.com/mpg-age-bioinformatics/shiny-VennDiagram/master/venndiagram_example.xlsx", "Example input"),
+      a(href = "https://datashare.mpcdf.mpg.de/s/VERGilhgddERYhf/download", "Example input"),
       hr(),
       textInput('venncolors', "Comma seperated list of colors", value = 'gray'),
       a(href = "http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf", "R-colors"),
